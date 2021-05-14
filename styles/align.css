@@ -1,0 +1,91 @@
+/*This is the old way of doing things with the float meathod.*/
+/* 
+main{
+    overflow: hidden;
+
+    height: calc(100%-140px);
+}
+
+main > .content{
+    height: 500px;
+}
+
+main > nav {
+    float: left;
+
+    height: 500px;
+    width: 250px;
+}
+
+main > aside {
+    float: right;
+    height: 500px;
+    width: 250px;
+}
+
+.deck{
+    height: 50%;
+
+    border: solid black 1px;
+} */
+
+html, body{
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    display: flex;
+
+    justify-content: space-between;
+
+    height: view;
+}
+main > aside {
+    order: 3;
+
+    width: 10%;
+    padding: 20px;
+
+    border: solid black 2px;
+}
+
+main > nav{
+    width: 10%;
+    padding: 20px;
+
+    border: solid black 2px;
+}
+
+main > .content{
+    width: 80%;
+}
+
+.deck{
+    border: solid black 2px;
+
+    height: 100%;
+}
+
+.images{
+    flex-direction:row;
+    display: flex;
+  
+    justify-content: space-around;
+
+    width: 100%;
+    flex-flow: row wrap;
+}
+.cards{
+    height: 500px;
+    width: 250px;
+
+    background-color: #5787D5;
+}
+
+img{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    justify-content: center;
+}

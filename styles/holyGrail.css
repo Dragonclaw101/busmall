@@ -1,0 +1,39 @@
+body > * {
+    border:1px solid #000;
+}
+
+body > header, body > footer {
+    background: #02000A;
+    color: #eee;
+    height: 70px;
+    line-height:70px;
+    text-align:center;
+}
+
+main{
+    background: #fafafa;
+}
+
+main > .content{
+    background: background #0000;
+}
+
+main > aside{
+    background: #87D557;
+}
+
+main > nav{
+    background: #87D557;
+}
+
+.deck {
+    background: #D55787;
+}
+
+.centerWords{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

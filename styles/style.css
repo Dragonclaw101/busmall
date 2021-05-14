@@ -1,0 +1,17 @@
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+#card{
+    background-color: gray;
+
+    width: 100px;
+    height: 300px;
+}
